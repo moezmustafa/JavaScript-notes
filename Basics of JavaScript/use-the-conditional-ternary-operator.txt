@@ -1,0 +1,12 @@
+// The conditional operator, also called the ternary operator, can be used as a one line if-else expression.
+
+// The syntax is:
+
+// condition ? expression-if-true : expression-if-false;
+
+
+function checkEqual(a, b) {
+return a == b ? "Equal" : "Not Equal";
+}
+
+checkEqual(1, 2);
