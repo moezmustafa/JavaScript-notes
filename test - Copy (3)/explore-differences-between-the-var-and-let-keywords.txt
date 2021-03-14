@@ -1,0 +1,13 @@
+let catName;
+let quote;
+function catTalk() {
+  "use strict";
+
+  catName = "Oliver";
+  quote = catName + " says Meow!";
+
+}
+catTalk();
+
+//the keyword var and let both stores a variable but the var-type variables can be overwritten and they will give no error messages to tackle this issue
+// in es6 the  'let' was introduced that actually throws out an error if an already defined let variable is being overwritten
